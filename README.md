@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://imgur.com/a/81QxxsM">
+  <br />
+</p>
+
 ### Desafio
 - Desenvolver uma calculadora usando o conhecimento em Portugol, seguindo as especificações do Professor/Cliente.
 
