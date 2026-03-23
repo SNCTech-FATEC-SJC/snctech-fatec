@@ -1,7 +1,10 @@
 <p align="center">
-  <img src="https://imgur.com/a/81QxxsM">
+  <img width="1100" height="300" alt="Logo" src="https://github.com/user-attachments/assets/8ea7dd44-1fc2-4130-96c8-b0d05134fd1e" />
   <br />
 </p>
+
+# Projeto API - 1º Semestre 2026 - Turma 1º Semestre
+<hr />
 
 ### Desafio
 - Desenvolver uma calculadora usando o conhecimento em Portugol, seguindo as especificações do Professor/Cliente.
@@ -10,8 +13,16 @@
 
 ### Sprints
 
-| Sprint | O que foi Entregue? | Backlog | Burndown | Retrospectiva |
-|---|---|---|---|---|---|
+### Equipe
+| Sprint | Oque foi feito? | Link Github |
+|---|---|---|
+| 1 | Calculadora  | | 
+| 2 |  |
+| 3 |  | 
+| 4 |  | 
+
+
+
 
 ### Equipe
 | Função | Nome | GitHub |
@@ -23,6 +34,6 @@
 | Dev Team |  | 
 | Dev Team |  | 
 | Dev Team |  | 
-| Dev Team | Yan Vitor Siqueira Bergantin | 
+| Dev Team | Yan Vitor Siqueira Bergantin | [![YanBergantin](https://img.shields.io/static/v1?style=for-the-badge&label=YanBergantin&color=blue&logo=github&message=Dev%20Team)](https://github.com/YanBergantin) | 
 
 <hr />
