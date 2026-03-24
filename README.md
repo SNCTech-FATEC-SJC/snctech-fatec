@@ -27,7 +27,7 @@
 ### Equipe
 | Função | Nome | GitHub |
 |---|---|---|
-| Product Owner |  |
+| Product Owner | Pietro Ramos Silveira | 
 | Scrum Master |  |
 | Dev Team |  | 
 | Dev Team |  | 
