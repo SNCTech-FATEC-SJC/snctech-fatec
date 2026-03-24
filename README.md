@@ -27,7 +27,7 @@
 ### Equipe
 | Função | Nome | GitHub |
 |---|---|---|
-| Product Owner | Pietro Ramos Silveira | 
+| Product Owner | Pietro Ramos Silveira | [![Zanella08]](https://github.com/Zanella08)
 | Scrum Master |  |
 | Dev Team |  | 
 | Dev Team |  | 
