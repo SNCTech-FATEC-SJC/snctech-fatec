@@ -27,7 +27,7 @@
 ### Equipe
 | Função | Nome | GitHub |
 |---|---|---|
-| Product Owner | Pietro Ramos Silveira | [![Zanella08]](https://github.com/Zanella08)
+| Product Owner | Pietro Ramos Silveira | [![Zanella08](https://img.shields.io/static/v1?style=for-the-badge&label=Zanella08&color=purple&logo=github&message=Product%20Owner)](https://github.com/Zanella08)
 | Scrum Master |  |
 | Dev Team |  | 
 | Dev Team |  | 
