@@ -28,7 +28,7 @@
 | Função | Nome | GitHub |
 |---|---|---|
 | Product Owner | Pietro Ramos Silveira | [![Zanella08](https://img.shields.io/static/v1?style=for-the-badge&label=Zanella08&color=purple&logo=github&message=Product%20Owner)](https://github.com/Zanella08) | 
-| Scrum Master | |
+| Scrum Master | Helder Francisco da Costa | [![tediolem](https://img.shields.io/static/v1?style=for-the-badge&label=tediolem&color=blue&logo=github&message=Dev%20Team)](https://github.com/helderfcosta) | 
 | Dev Team |  Lucas Alves da Silva | [![Alves-ls](https://img.shields.io/static/v1?style=for-the-badge&label=Alves-ls&color=blue&logo=github&message=Dev%20Team)](https://github.com/Alves-ls) | 
 | Dev Team | Miguel Tediole de Oliveira | [![tediolem](https://img.shields.io/static/v1?style=for-the-badge&label=tediolem&color=blue&logo=github&message=Dev%20Team)](https://github.com/tediolem) | 
 | Dev Team |  | 
