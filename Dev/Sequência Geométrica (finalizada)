@@ -1,5 +1,5 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e LÛgica de ProgramaÁ„o] 
+// Disciplina   : [Linguagem e L√≥gica de Programa√ß√£o] 
 // Professor   : Antonio Carlos Nicolodi 
 
 Var
@@ -10,9 +10,9 @@ Var
 
 
 Inicio
-   escreval ("Deseja utilizar qual das fÛrmulas")
+   escreval ("Deseja utilizar qual das f√≥rmulas")
    escreval("==================================")
-   escreval("1. Raz„o da PG")
+   escreval("1. Raz√£o da PG")
    escreval ("2. Termo Geral da PG")
    escreval("3. Soma dos Termos da PG")
    escreval("==================================")
@@ -20,71 +20,71 @@ Inicio
    limpatela
 
    se opcao1=1 entao
-      escreval("VocÍ selecionou a opÁ„o 1. raz„o da PG")
+      escreval("Voc√™ selecionou a op√ß√£o 1. raz√£o da PG")
       escreval("=================================================")
-      escreval("A fÛrmula que ser· utilizada È: q = A2/A1 = A3/A2 ")
+      escreval("A f√≥rmula que ser√° utilizada √©: q = A2/A1 = A3/A2 ")
       escreval("=================================================")
       escreval("Insira os valores onde:")
-      escreval("- (A1)È o primeiro termo da progress„o")
+      escreval("- (A1)√© o primeiro termo da progress√£o")
       escreva ("A1 = ")
       leia(A1)
-      escreval("- (A2)È o segundo termo da progress„o")
+      escreval("- (A2)√© o segundo termo da progress√£o")
       escreva ("A2 = ")
       leia(A2)
-      escreval("- (A3)È o terceiro termo da progress„o")
+      escreval("- (A3)√© o terceiro termo da progress√£o")
       escreva ("A3 = ")
       leia(A3)
       razao1 <- (A2/A1)
       escreval("=================================================")
       ESCREVAL
-      escreval ("A raz„o da PG È:", razao1)
+      escreval ("A raz√£o da PG √©:", razao1)
    fimse
    se (opcao1 = 2)entao
-      escreval("VocÍ selecionou a opÁ„o 2. Termo Geral da PG")
+      escreval("Voc√™ selecionou a op√ß√£o 2. Termo Geral da PG")
       escreval("=================================================")
-      escreval("A fÛrmula que ser· utilizada È: An = A1 * q^(n-1) ")
+      escreval("A f√≥rmula que ser√° utilizada √©: An = A1 * q^(n-1) ")
       escreval("=================================================")
       escreval("Insira os valores onde:")
-      escreval("- (A1)È o primeiro termo da progress„o")
+      escreval("- (A1)√© o primeiro termo da progress√£o")
       escreva ("A1 = ")
       leia(A1)
       escreval
-      escreval("- (q) È a raz„o da PG")
+      escreval("- (q) √© a raz√£o da PG")
       escreva("q = ")
       leia(razao1)
       escreval
-      escreval("- (n) È a posiÁ„o do termo que quer encontrar")
+      escreval("- (n) √© a posi√ß√£o do termo que quer encontrar")
       escreva("n = ")
       leia(N1)
       escreval("=================================================")
       escreval
       An1 <- A1*exp(razao1, N1-1)
-      escreva ("O termo que desejava encontrar na posiÁ„o")
+      escreva ("O termo que desejava encontrar na posi√ß√£o")
       escreva(N1)
       escreva (" era R:")
       escreval (An1)
       escreva
    fimse
    se(opcao1 = 3)entao
-      escreval ("VocÍ selecionou a opÁ„o 3. Soma dos termos da PG")
+      escreval ("Voc√™ selecionou a op√ß√£o 3. Soma dos termos da PG")
       escreval("======================================================")
-      escreval ("A fÛrmula que ser· utilizada È: Sn = A1 * (q^n-1)/q-1")
+      escreval ("A f√≥rmula que ser√° utilizada √©: Sn = A1 * (q^n-1)/q-1")
       escreval("======================================================")
       escreval("Insira os valores onde:")
-      escreval("- (A1)È o primeiro termo da progress„o")
+      escreval("- (A1)√© o primeiro termo da progress√£o")
       escreva ("A1 = ")
       leia(A1)
       escreval
-      escreval("- (q) È a raz„o da PG")
+      escreval("- (q) √© a raz√£o da PG")
       escreva("q = ")
       leia(razao1)
-      se (razao1 = 0) ou (razao1=1) ou (razao1=-1) ent„o
+      se (razao1 = 0) ou (razao1=1) ou (razao1=-1) ent√£o
          enquanto (razao1 = 0) ou (razao1=1) ou (razao1=-1) faca
                   escreval("Insira um valor diferente de 1,0 ou -1")
                   leia(razao1)
          fimenquanto
       fimse
-      escreval("- (n) n˙mero que termo que quer somar")
+      escreval("- (n) n√∫mero que termo que quer somar")
       escreva("n = ")
       leia(N1)
       escreval("======================================================")
@@ -92,7 +92,7 @@ Inicio
       escreva ("A soma de")
       escreva(N1)
       escreva(" termos")
-      escreva (" s„o R:")
+      escreva (" s√£o R:")
       escreval (Sn1)
    fimse
 
