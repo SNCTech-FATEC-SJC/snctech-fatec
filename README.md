@@ -31,8 +31,8 @@
 | Scrum Master | Helder Francisco da Costa | [![tediolem](https://img.shields.io/static/v1?style=for-the-badge&label=tediolem&color=blue&logo=github&message=Dev%20Team)](https://github.com/helderfcosta) | 
 | Dev Team |  Lucas Alves da Silva | [![Alves-ls](https://img.shields.io/static/v1?style=for-the-badge&label=Alves-ls&color=blue&logo=github&message=Dev%20Team)](https://github.com/Alves-ls) | 
 | Dev Team | Miguel Tediole de Oliveira | [![tediolem](https://img.shields.io/static/v1?style=for-the-badge&label=tediolem&color=blue&logo=github&message=Dev%20Team)](https://github.com/tediolem) | 
-| Dev Team |  | 
-| Dev Team |  | 
+| Dev Team | Victor Joaquim Pereira do Nascimento | [![BJ1-star](https://img.shields.io/static/v1?style=for-the-badge&label=tediolem&color=blue&logo=github&message=Dev%20Team)](https://github.com/BJ1-star)  | 
+| Dev Team | Asafe Maximiano dos Santos | [![AsafeMax2008](https://img.shields.io/static/v1?style=for-the-badge&label=tediolem&color=blue&logo=github&message=Dev%20Team)](https://github.com/AsafeMax2008) | 
 | Dev Team | Yan Vitor Siqueira Bergantin | [![YanBergantin](https://img.shields.io/static/v1?style=for-the-badge&label=YanBergantin&color=blue&logo=github&message=Dev%20Team)](https://github.com/YanBergantin) | 
 
 <hr />
