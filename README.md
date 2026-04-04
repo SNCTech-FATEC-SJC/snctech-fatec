@@ -33,7 +33,6 @@
 | Dev Team | Miguel Tediole de Oliveira | [![tediolem](https://img.shields.io/static/v1?style=for-the-badge&label=tediolem&color=blue&logo=github&message=Dev%20Team)](https://github.com/tediolem) | 
 | Dev Team |  | 
 | Dev Team |  | 
-| Dev Team |  | 
 | Dev Team | Yan Vitor Siqueira Bergantin | [![YanBergantin](https://img.shields.io/static/v1?style=for-the-badge&label=YanBergantin&color=blue&logo=github&message=Dev%20Team)](https://github.com/YanBergantin) | 
 
 <hr />
