@@ -1,35 +1,31 @@
-Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 26/03/2026
+Algoritmo "SequÃªncia de Quadrados perfeitos"
+
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    valor1,valor2,valor3:inteiro
 
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    escreval("==================CALCULADORA==================")
-   escreval("Você escolheu Sequência de Quadrados perfeitos!")
+   escreval("VocÃª escolheu SequÃªncia de Quadrados perfeitos!")
    escreval
    escreval("1.Calculo do quadrado perfeito.")
-   escreval("2.Crie uma Sequência de Quadrados perfeitos")
+   escreval("2.Crie uma SequÃªncia de Quadrados perfeitos")
    leia(valor1)
    limpatela
    se(valor1=1)entao
       escreval("==================CALCULADORA==================")
       escreval
-      escreva("Qual número você deseja calcular: ")
+      escreva("Qual nÃºmero vocÃª deseja calcular: ")
       leia(valor1)
 
       limpatela
-      se(valor1<0)então
+      se(valor1<0)entÃ£o
          enquanto (valor1<0) faca
             escreval("==================CALCULADORA==================")
             escreval
-            escreval("Insira um valor que não seja negativo")
+            escreval("Insira um valor que nÃ£o seja negativo")
             leia(valor1)
             limpatela
          fimenquanto
@@ -39,10 +35,10 @@ Inicio
       se(valor2>0) ou (valor2=0)entao
          escreval("==================CALCULADORA==================")
          escreval
-         escreval(valor1," ao quadrado é o quadrado perfeito de",valor2)
-         escreval("Pois",valor1," ao quadrado é",valor2)
+         escreval(valor1," ao quadrado Ã© o quadrado perfeito de",valor2)
+         escreval("Pois",valor1," ao quadrado Ã©",valor2)
          escreval
-         escreval("Sequência de Quadrados perfeitos até o",valor1," :")
+         escreval("SequÃªncia de Quadrados perfeitos atÃ© o",valor1," :")
          valor3<-1
          enquanto (valor3=valor1) ou (valor3<valor1)  faca
             escreval(valor3*valor3)
@@ -54,15 +50,15 @@ Inicio
    se(valor1=2)entao
       escreval("==================CALCULADORA==================")
       escreval
-      escreval("Até qual termo você que tenha a seguência:")
+      escreval("AtÃ© qual termo vocÃª que tenha a seguÃªncia:")
       leia(valor1)
       limpatela
 
-      se(valor1<0)então
+      se(valor1<0)entÃ£o
          enquanto (valor1<0) faca
             escreval("==================CALCULADORA==================")
             escreval
-            escreval("Insira um valor que não seja negativo")
+            escreval("Insira um valor que nÃ£o seja negativo")
             leia(valor1)
             limpatela
          fimenquanto
