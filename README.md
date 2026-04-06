@@ -8,9 +8,8 @@
 
 # 🧮 Calculadora SNC Tech — Sequências Matemáticas
 
-> Projeto Acadêmico | API 2025 · FATEC São José dos Campos  
-> Disciplina: Linguagem e Lógica de Programação  
-> Professor: Antonio Carlos Nicolodi
+> Projeto Acadêmico | API 2025 · FATEC São José dos Campos 
+
 
 **Status do Projeto:** Sprint 1/3 ⏳
 
