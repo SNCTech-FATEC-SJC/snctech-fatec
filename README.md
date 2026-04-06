@@ -8,7 +8,7 @@
 
 # 🧮 Calculadora SNC Tech — Sequências Matemáticas
 
-> Projeto Acadêmico | API 2025 · FATEC São José dos Campos 
+> Projeto Acadêmico | API 2026 · FATEC São José dos Campos 
 
 
 **Status do Projeto:** Sprint 1/3 ⏳
@@ -113,7 +113,7 @@ Progressão onde cada termo é obtido multiplicando o anterior por uma constante
 
 - **Git** — [Download](https://git-scm.com/downloads)
 - **VisualG 3.0 ou superior** — [Download](https://sourceforge.net/projects/visualg30/)
-- Sistema Operacional: **Windows** (recomendado para o VisualG)
+- Sistema Operacional: **Windows** (sistema operacional da equipe)
 
 ---
 
@@ -121,9 +121,9 @@ Progressão onde cada termo é obtido multiplicando o anterior por uma constante
 
 **1. Clone o repositório:**
 
-```bash
+No terminal "Open Git Bash Here":
 git clone https://github.com/SNCTech-FATEC-SJC/snctech-fatec.git
-```
+
 
 **2. Abra o VisualG** no seu computador.
 
