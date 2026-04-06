@@ -22,7 +22,7 @@ Inicio
    se opcao1=1 entao
       escreval("Você selecionou a opção 1. razão da PG")
       escreval("=================================================")
-      escreval("A fórmula que será utilizada é: q = A2/A1 = A3/A2 ")
+      escreval("A fórmula que será utilizada é: q = A2/A1 ")
       escreval("=================================================")
       escreval("Insira os valores onde:")
       escreval("- (A1)é o primeiro termo da progressão")
@@ -31,9 +31,6 @@ Inicio
       escreval("- (A2)é o segundo termo da progressão")
       escreva ("A2 = ")
       leia(A2)
-      escreval("- (A3)é o terceiro termo da progressão")
-      escreva ("A3 = ")
-      leia(A3)
       razao1 <- (A2/A1)
       escreval("=================================================")
       ESCREVAL
