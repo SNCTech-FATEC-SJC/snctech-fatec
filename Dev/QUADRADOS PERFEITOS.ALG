@@ -2,7 +2,7 @@ Algoritmo "Sequência de Quadrados perfeitos"
 
 Var
    // Seção de Declarações das variáveis
-   valor1,valor2,valor3:inteiro
+   opcao,valor1,valor2,valor3:inteiro
 
 
 Inicio
@@ -12,9 +12,9 @@ Inicio
    escreval
    escreval("1.Calculo do quadrado perfeito.")
    escreval("2.Crie uma Sequência de Quadrados perfeitos")
-   leia(valor1)
+   leia(opcao)
    limpatela
-   se(valor1=1)entao
+   se(opcao=1)entao
       escreval("==================CALCULADORA==================")
       escreval
       escreva("Qual número você deseja calcular: ")
@@ -32,7 +32,7 @@ Inicio
       fimse
 
       valor2<-valor1*valor1
-      se(valor2>0) ou (valor2=0)entao
+      se(valor2>=0)entao
          escreval("==================CALCULADORA==================")
          escreval
          escreval(valor1," ao quadrado é o quadrado perfeito de",valor2)
@@ -40,14 +40,14 @@ Inicio
          escreval
          escreval("Sequência de Quadrados perfeitos até o",valor1," :")
          valor3<-1
-         enquanto (valor3=valor1) ou (valor3<valor1)  faca
+         enquanto (valor3<=valor1) faca
             escreval(valor3*valor3)
             valor3<-valor3+1
          fimenquanto
       fimse
    fimse
 
-   se(valor1=2)entao
+   se(opcao=2)entao
       escreval("==================CALCULADORA==================")
       escreval
       escreval("Até qual termo você que tenha a seguência:")
@@ -63,8 +63,9 @@ Inicio
             limpatela
          fimenquanto
       fimse
+      escreval("Sequência de Quadrados perfeitos até o",valor1," :")
       valor2<-1
-      enquanto (valor2=valor1) ou (valor2<valor1)  faca
+      enquanto (valor2<=valor1) faca
          escreval(valor2*valor2)
          valor2<-valor2+1
       fimenquanto
