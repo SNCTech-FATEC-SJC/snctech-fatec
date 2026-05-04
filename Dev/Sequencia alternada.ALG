@@ -1,25 +1,33 @@
-Algoritmo "semnome"
+Algoritmo "SequÃªncia Alternada"
 
 Var
-   An,n : real
-   i, bn, q:inteiro
+    An,pgPrimeiroTermo : real
+   i, NRep ,pgRazao :inteiro
 
 
 Inicio
-   escreval("Informe o primeiro número" )
-   leia(n)
-   escreval("Informe a razão" )
-   leia (q)
-   escreval("quantas repetições deverão ser feitas?")
-   leia(bn)
-   escreva(n)
+  escreval("VocÃª selecionou SequÃªncia Alternada")
+  escreval("====================================")
+   escreval("Informe o primeiro Termo" )
+   leia(pgPrimeiroTermo)
+   escreval
+   escreval("Informe a razÃ£o" )
+   leia (pgRazao)
+   escreval
+   escreval("Quantas repetiÃ§Ãµes deverÃ£o ser feitas?")
+   leia(NRep)
+   escreval("====================================")
    i<-0
-   para i de 2 ate bn faca
-      An<- (n*q)*-1
-      n <- an
-
-      // o valor de an é atribuido a n para possibilitar a progressão
-
-      escreva(An)
+   enquanto (Nrep > 40) faca
+   escreval("Escolha um nÃºmero abaixo de 40 para continuar")
+   leia(NRep)
+   fimenquanto
+   escreval("A SequÃªncia que deseja realizar Ã©:" )
+      escreval(pgPrimeiroTermo)
+   para i de 2 ate NRep faca
+      An<-(pgPrimeiroTermo*pgRazao)*-1
+      pgPrimeiroTermo<-An
+      // o valor de an Ã© atribuido a "pgPrimeiroTermo" para possibilitar a progressÃ£o
+      escreval(An)
    fimpara
 Fimalgoritmo
