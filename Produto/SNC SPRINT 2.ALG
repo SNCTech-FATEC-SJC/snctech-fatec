@@ -1,5 +1,5 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
 
 Var
@@ -9,10 +9,11 @@ Var
    tribAnterior, tribAtual, tribProximo, tribResultado: real
    tribQtdTermos, tribContador: inteiro
    quadBase, quadContador: inteiro
-   pgPrimeiroTermo, pgSegundoTermo, pgRazao, pgTermoGeral, pgSomaN: real
+   An, pgPrimeiroTermo, pgSegundoTermo, pgRazao, pgTermoGeral, pgSomaN: real
    pgPosicao: inteiro
    n,i, cubo: inteiro
    fat: real
+   NRep ,pgR :inteiro
 
 Inicio
 
@@ -42,12 +43,13 @@ Inicio
       escreval(" |_|  |_|\___|_| |_|\__,_|")
       escreval("")
       escreval("")
-      escreval("Escolha qual calculo você ira fazer")
-      escreval("1.Sequência de Tribonacci")
-      escreval("2.Sequência de Quadrados perfeitos")
-      escreval("3.Sequência Geometrica")
-      escreval("4.Sequência de Cubos")
-      escreval("5.Sequência Fatorial")
+      escreval("Escolha qual calculo vocÃª ira fazer")
+      escreval("1.SequÃªncia de Tribonacci")
+      escreval("2.SequÃªncia de Quadrados perfeitos")
+      escreval("3.SequÃªncia Geometrica")
+      escreval("4.SequÃªncia de Cubos")
+      escreval("5.SequÃªncia Fatorial")
+      escreval("6.SequÃªncia Alternada")
       escreval("Pressione ENTER para sair do MENU!")
       leia(opcao)
 
@@ -55,7 +57,7 @@ Inicio
 
       se (opcao = 1) entao
          escreval("==============CALCULADORA==============")
-         escreval("Você escolheu Sequência de Tribonacci!")
+         escreval("VocÃª escolheu SequÃªncia de Tribonacci!")
 
          tribAnterior <- 0
          tribAtual    <- 0
@@ -66,22 +68,22 @@ Inicio
          escreva("QUANTIDADE = ")
          leia(tribQtdTermos)
 
-         escreval("Escolha uma das opções")
+         escreval("Escolha uma das opÃ§Ãµes")
          escreval
-         escreval("1. Lista com os termos da sequência")
-         escreval("2. Último termo da sequência")
+         escreval("1. Lista com os termos da sequÃªncia")
+         escreval("2. Ãšltimo termo da sequÃªncia")
          escreval
-         escreva("OPÇÃO = ")
+         escreva("OPÃ‡ÃƒO = ")
          leia(opcaoSub)
 
          se opcaoSub = 1 entao
-            escreval(" 1º elemento - ", tribAnterior)
-            escreval(" 2º elemento - ", tribAtual)
-            escreval(" 3º elemento - ", tribProximo)
+            escreval(" 1Âº elemento - ", tribAnterior)
+            escreval(" 2Âº elemento - ", tribAtual)
+            escreval(" 3Âº elemento - ", tribProximo)
 
             para tribContador de 4 ate tribQtdTermos faca
                tribResultado <- tribAnterior + tribAtual + tribProximo
-               escreva(tribContador:2, "º elemento - ")
+               escreva(tribContador:2, "Âº elemento - ")
                escreval(tribResultado)
                tribAnterior <- tribAtual
                tribAtual    <- tribProximo
@@ -96,11 +98,11 @@ Inicio
                   tribAtual     <- tribProximo
                   tribProximo   <- tribResultado
                fimpara
-               escreval("O último termo é", tribResultado, ".")
+               escreval("O Ãºltimo termo Ã©", tribResultado, ".")
 
             senao
                limpatela
-               escreval("NÃO HÁ UMA OPÇÃO COM ESSE NÚMERO. TENTE NOVAMENTE")
+               escreval("NÃƒO HÃ UMA OPÃ‡ÃƒO COM ESSE NÃšMERO. TENTE NOVAMENTE")
             fimse
          fimse
 
@@ -111,17 +113,17 @@ Inicio
 
       se (opcao = 2) entao
          escreval("==================CALCULADORA==================")
-         escreval("Você escolheu Sequência de Quadrados Perfeitos!")
+         escreval("VocÃª escolheu SequÃªncia de Quadrados Perfeitos!")
          escreval
-         escreval("1. Cálculo do quadrado perfeito de um número")
-         escreval("2. Criar uma sequência de quadrados perfeitos")
+         escreval("1. CÃ¡lculo do quadrado perfeito de um nÃºmero")
+         escreval("2. Criar uma sequÃªncia de quadrados perfeitos")
          leia(opcaoSub)
          limpatela
 
          se (opcaoSub = 1) entao
             escreval("==================CALCULADORA==================")
             escreval
-            escreva("Qual número você deseja calcular: ")
+            escreva("Qual nÃºmero vocÃª deseja calcular: ")
             leia(quadBase)
             limpatela
 
@@ -129,17 +131,17 @@ Inicio
             enquanto (quadBase < 0) faca
                escreval("==================CALCULADORA==================")
                escreval
-               escreval("Insira um valor que não seja negativo.")
+               escreval("Insira um valor que nÃ£o seja negativo.")
                leia(quadBase)
                limpatela
             fimenquanto
 
             escreval("==================CALCULADORA==================")
             escreval
-            escreval(quadBase, " ao quadrado é", quadBase * quadBase)
+            escreval(quadBase, " ao quadrado Ã©", quadBase * quadBase)
             escreval("Pois", quadBase, " x ", quadBase, " = ", quadBase * quadBase)
             escreval
-            escreval("Sequência de quadrados perfeitos até", quadBase, ":")
+            escreval("SequÃªncia de quadrados perfeitos atÃ©", quadBase, ":")
             quadContador <- 1
             enquanto (quadContador <= quadBase) faca
                escreval(quadContador * quadContador)
@@ -150,7 +152,7 @@ Inicio
          se (opcaoSub = 2) entao
             escreval("==================CALCULADORA==================")
             escreval
-            escreval("Até qual termo você quer a sequência:")
+            escreval("AtÃ© qual termo vocÃª quer a sequÃªncia:")
             leia(quadBase)
             limpatela
 
@@ -158,12 +160,12 @@ Inicio
             enquanto (quadBase < 0) faca
                escreval("==================CALCULADORA==================")
                escreval
-               escreval("Insira um valor que não seja negativo.")
+               escreval("Insira um valor que nÃ£o seja negativo.")
                leia(quadBase)
                limpatela
             fimenquanto
 
-            escreval("Sequência de quadrados perfeitos até", quadBase, ":")
+            escreval("SequÃªncia de quadrados perfeitos atÃ©", quadBase, ":")
             quadContador <- 1
             enquanto (quadContador <= quadBase) faca
                escreval(quadContador * quadContador)
@@ -178,10 +180,10 @@ Inicio
 
       se (opcao = 3) entao
          escreval("============CALCULADORA============")
-         escreval("Você escolheu Sequência Geométrica!")
-         escreval("Deseja utilizar qual das fórmulas")
+         escreval("VocÃª escolheu SequÃªncia GeomÃ©trica!")
+         escreval("Deseja utilizar qual das fÃ³rmulas")
          escreval("==================================")
-         escreval("1. Razão da PG")
+         escreval("1. RazÃ£o da PG")
          escreval("2. Termo Geral da PG")
          escreval("3. Soma dos Termos da PG")
          escreval("==================================")
@@ -189,58 +191,58 @@ Inicio
          limpatela
 
          se opcaoSub = 1 entao
-            escreval("Você selecionou a opção 1: Razão da PG")
+            escreval("VocÃª selecionou a opÃ§Ã£o 1: RazÃ£o da PG")
             escreval("=================================================")
-            escreval("Fórmula: q = A2 / A1")
+            escreval("FÃ³rmula: q = A2 / A1")
             escreval("=================================================")
-            escreval("- (A1) primeiro termo da progressão")
+            escreval("- (A1) primeiro termo da progressÃ£o")
             escreva("A1 = ")
             leia(pgPrimeiroTermo)
-            escreval("- (A2) segundo termo da progressão")
+            escreval("- (A2) segundo termo da progressÃ£o")
             escreva("A2 = ")
             leia(pgSegundoTermo)
             pgRazao <- pgSegundoTermo / pgPrimeiroTermo
             escreval("=================================================")
             escreval
-            escreval("A razão da PG é:", pgRazao)
+            escreval("A razÃ£o da PG Ã©:", pgRazao)
          fimse
 
          se (opcaoSub = 2) entao
-            escreval("Você selecionou a opção 2: Termo Geral da PG")
+            escreval("VocÃª selecionou a opÃ§Ã£o 2: Termo Geral da PG")
             escreval("=================================================")
-            escreval("Fórmula: An = A1 * q^(n-1)")
+            escreval("FÃ³rmula: An = A1 * q^(n-1)")
             escreval("=================================================")
-            escreval("- (A1) primeiro termo da progressão")
+            escreval("- (A1) primeiro termo da progressÃ£o")
             escreva("A1 = ")
             leia(pgPrimeiroTermo)
             escreval
-            escreval("- (q) razão da PG")
+            escreval("- (q) razÃ£o da PG")
             escreva("q = ")
             leia(pgRazao)
             escreval
-            escreval("- (n) posição do termo que deseja encontrar")
+            escreval("- (n) posiÃ§Ã£o do termo que deseja encontrar")
             escreva("n = ")
             leia(pgPosicao)
             escreval("=================================================")
             escreval
             pgTermoGeral <- pgPrimeiroTermo * potencia(pgRazao, pgPosicao - 1)
-            escreva("O termo na posição ")
+            escreva("O termo na posiÃ§Ã£o ")
             escreva(pgPosicao)
-            escreva(" é: ")
+            escreva(" Ã©: ")
             escreval(pgTermoGeral)
             escreval
          fimse
 
          se (opcaoSub = 3) entao
-            escreval("Você selecionou a opção 3: Soma dos Termos da PG")
+            escreval("VocÃª selecionou a opÃ§Ã£o 3: Soma dos Termos da PG")
             escreval("======================================================")
-            escreval("Fórmula: Sn = A1 * (q^n - 1) / (q - 1)")
+            escreval("FÃ³rmula: Sn = A1 * (q^n - 1) / (q - 1)")
             escreval("======================================================")
-            escreval("- (A1) primeiro termo da progressão")
+            escreval("- (A1) primeiro termo da progressÃ£o")
             escreva("A1 = ")
             leia(pgPrimeiroTermo)
             escreval
-            escreval("- (q) razão da PG  [não pode ser 0, 1 ou -1]")
+            escreval("- (q) razÃ£o da PG  [nÃ£o pode ser 0, 1 ou -1]")
             escreva("q = ")
             leia(pgRazao)
 
@@ -257,7 +259,7 @@ Inicio
             pgSomaN <- pgPrimeiroTermo * ((pgRazao ^ pgPosicao) - 1) / (pgRazao - 1)
             escreva("A soma de ")
             escreva(pgPosicao)
-            escreva(" termos é: ")
+            escreva(" termos Ã©: ")
             escreval(pgSomaN)
          fimse
 
@@ -268,14 +270,14 @@ Inicio
 
       se(opcao = 4)entao
          escreval("============CALCULADORA============")
-         escreval("Você escolheu a Sequeência de Cubos!")
+         escreval("VocÃª escolheu a SequeÃªncia de Cubos!")
          escreval
-         escreva("Digite o número de elementos: ")
+         escreva("Digite o nÃºmero de elementos: ")
          leia(n)
 
          para i de 1 ate n faca
             cubo <- i * i * i
-            escreval("O cubo de " , i , " é: " , cubo)
+            escreval("O cubo de " , i , " Ã©: " , cubo)
          fimpara
          leia(travar)
          limpatela
@@ -283,19 +285,19 @@ Inicio
 
       se(opcao = 5)entao
          escreval("============CALCULADORA============")
-         escreval("Você escolheu Sequência Fatorial!")
+         escreval("VocÃª escolheu SequÃªncia Fatorial!")
          escreval
          repita
-            escreva("Digite até qual número calcular (N): ")
+            escreva("Digite atÃ© qual nÃºmero calcular (N): ")
             leia(n)
             se (n >= 170) ou (n < 1) entao
-               escreval("Digite um número menor que 170!")
+               escreval("Digite um nÃºmero menor que 170!")
             fimse
          ate (n >= 1) e (n < 170)
 
          fat := 1
          escreval()
-         escreval("Sequência:")
+         escreval("SequÃªncia:")
          para i de 1 ate n faca
             fat := fat * i
             escreval(" ", i, "! = ", fat:0:0)
@@ -306,15 +308,37 @@ Inicio
 
       se(opcao = 6)entao
          escreval("============CALCULADORA============")
-         escreval("Você escolheu !")
+         escreval("VocÃª escolheu SequÃªncia Alternada!")
          escreval
+         escreval("Informe o primeiro Termo" )
+         leia(pgPrimeiroTermo)
+         escreval
+         escreval("Informe a razÃ£o" )
+         leia (pgR)
+         escreval
+         escreval("Quantas repetiÃ§Ãµes deverÃ£o ser feitas?")
+         leia(NRep)
+         escreval("====================================")
+         i<-0
+         enquanto (Nrep > 40) faca
+            escreval("Escolha um nÃºmero abaixo de 40 para continuar")
+            leia(NRep)
+         fimenquanto
+         escreval("A SequÃªncia que deseja realizar Ã©:" )
+         escreval(pgPrimeiroTermo)
+         para i de 2 ate NRep faca
+            An<-(pgPrimeiroTermo*pgR)*-1
+            pgPrimeiroTermo<-An
+            escreval(An)
+         fimpara
+
          leia(travar)
          limpatela
       fimse
 
       se(opcao = 7)entao
          escreval("============CALCULADORA============")
-         escreval("Você escolheu !")
+         escreval("VocÃª escolheu !")
          escreval
          leia(travar)
          limpatela
@@ -322,7 +346,7 @@ Inicio
 
       se(opcao = 8)entao
          escreval("============CALCULADORA============")
-         escreval("Você escolheu !")
+         escreval("VocÃª escolheu !")
          escreval
          leia(travar)
          limpatela
@@ -330,7 +354,7 @@ Inicio
 
       se(opcao = 9)entao
          escreval("============CALCULADORA============")
-         escreval("Você escolheu !")
+         escreval("VocÃª escolheu !")
          escreval
          leia(travar)
          limpatela
