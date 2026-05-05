@@ -85,7 +85,7 @@ Realiza três tipos de cálculo sobre uma Progressão Geométrica (PG):
 
 ---
 
-## 6. Opção 4 — Sequência de Cubos *(novo)*
+## 6. Opção 4 — Sequência de Cubos 
 
 Gera a sequência dos cubos perfeitos, calculando `i³` para cada número de 1 até N.
 
@@ -104,7 +104,7 @@ Gera a sequência dos cubos perfeitos, calculando `i³` para cada número de 1 a
 
 ---
 
-## 7. Opção 5 — Sequência Fatorial *(novo)*
+## 7. Opção 5 — Sequência Fatorial 
 
 Calcula e exibe o fatorial acumulado de cada número de 1 até N (notação: `N!`).
 
@@ -125,7 +125,7 @@ Calcula e exibe o fatorial acumulado de cada número de 1 até N (notação: `N!
 
 ---
 
-## 8. Opção 6 — Sequência Alternada *(novo)*
+## 8. Opção 6 — Sequência Alternada 
 
 Gera uma sequência onde os sinais dos termos alternam entre positivo e negativo a cada elemento, a partir de um primeiro termo e uma razão informados.
 
