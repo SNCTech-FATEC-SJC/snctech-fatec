@@ -96,13 +96,52 @@ Progressão onde cada termo é obtido multiplicando o anterior por uma constante
 
 ---
 
-### 🔜 Previstas (Sprints 2 e 3)
+### ✅ Implementadas (Sprint 2)
+
+#### 4. Sequência Fatorial
+O fatorial de um número N é o produto de todos os inteiros positivos de 1 até N.
+
+```
+N! = N × (N-1) × (N-2) × ... × 1
+```
+
+- **Sub-opção 1:** Exibe a lista completa dos fatoriais de 1 até N.
+- **Sub-opção 2:** Exibe apenas o fatorial do N-ésimo termo.
+
+> Observação: por definição, `0! = 1`. Valores negativos são rejeitados automaticamente.
+
+---
+
+#### 5. Sequência de Cubos
+Resultado de um número inteiro elevado à terceira potência.
+
+```
+C(n) = n × n × n = n³
+```
+
+- **Sub-opção 1:** Calcula o cubo de um número específico.
+- **Sub-opção 2:** Gera a sequência de cubos de 1 até o N-ésimo termo.
+
+---
+
+#### 6. Sequência Alternada
+Sequência onde os sinais dos termos se alternam entre positivo e negativo, controlada por uma magnitude B.
+
+```
+A(n) = (-1)^(n+1) × B
+```
+
+Entradas: N (quantidade de termos), B (magnitude dos termos).
+
+- **Sub-opção 1:** Exibe a lista completa com todos os termos da sequência alternada.
+- **Sub-opção 2:** Exibe apenas o N-ésimo termo.
+
+---
+
+### 🔜 Previstas (Sprint 3)
 
 | Sequência | Sprint |
 |---|---|
-| Fatorial | Sprint 2 |
-| Sequência de Cubos | Sprint 2 |
-| Sequência Alternada | Sprint 2 |
 | Fibonacci | Sprint 3 |
 | Números Triangulares | Sprint 3 |
 | Números Primos | Sprint 3 |
@@ -122,8 +161,9 @@ Progressão onde cada termo é obtido multiplicando o anterior por uma constante
 **1. Clone o repositório:**
 
 No terminal "Open Git Bash Here":
+```
 git clone https://github.com/SNCTech-FATEC-SJC/snctech-fatec.git
-
+```
 
 **2. Abra o VisualG** no seu computador.
 
@@ -151,15 +191,15 @@ Pressione `F9` (ou `Executar > Executar`).
 
 | ID | Épico | User Story (resumo) | Prioridade | Status | Sprint |
 |---|---|---|---|---|---|
-| PB-01 | Interface | Visualizar menu de opções | Alta | Backlog | Sprint 1 |
-| PB-02 | Fluxo | Executar um cálculo por vez | Alta | Backlog | Sprint 1 |
-| PB-03 | Fluxo | Executar todos os cálculos propostos | Alta | Backlog | Sprint 1 |
-| PB-08 | Sequência | Quadrados Perfeitos | Alta | Backlog | Sprint 1 |
-| PB-10 | Sequência | Sequência Geométrica | Alta | Backlog | Sprint 1 |
-| PB-12 | Sequência | Tribonacci | Alta | Backlog | Sprint 1 |
-| PB-07 | Sequência | Fatorial | Média | Backlog | Sprint 2 |
-| PB-09 | Sequência | Cubos | Média | Backlog | Sprint 2 |
-| PB-11 | Sequência | Alternada | Média | Backlog | Sprint 2 |
+| PB-01 | Interface | Visualizar menu de opções | Alta | ✅ Concluído | Sprint 1 |
+| PB-02 | Fluxo | Executar um cálculo por vez | Alta | ✅ Concluído | Sprint 1 |
+| PB-03 | Fluxo | Executar todos os cálculos propostos | Alta | ✅ Concluído | Sprint 1 |
+| PB-08 | Sequência | Quadrados Perfeitos | Alta | ✅ Concluído | Sprint 1 |
+| PB-10 | Sequência | Sequência Geométrica | Alta | ✅ Concluído | Sprint 1 |
+| PB-12 | Sequência | Tribonacci | Alta | ✅ Concluído | Sprint 1 |
+| PB-07 | Sequência | Fatorial | Média | ✅ Concluído | Sprint 2 |
+| PB-09 | Sequência | Cubos | Média | ✅ Concluído | Sprint 2 |
+| PB-11 | Sequência | Alternada | Média | ✅ Concluído | Sprint 2 |
 | PB-04 | Sequência | Fibonacci | Baixa | Backlog | Sprint 3 |
 | PB-05 | Sequência | Números Triangulares | Baixa | Backlog | Sprint 3 |
 | PB-06 | Sequência | Números Primos | Baixa | Backlog | Sprint 3 |
@@ -173,11 +213,11 @@ Pressione `F9` (ou `Executar > Executar`).
 | 🔖 Início das Aulas | 09/02 |
 | 🔖 Kick-off geral | 02/03 a 06/03 |
 | 🔖 Backlog / Planning | 09/03 a 13/03 |
-| 🔖 **SPRINT 1** | 16/03 a 05/04 |
+| ✅ **SPRINT 1** | 16/03 a 05/04 |
 | 🔖 Sprint Review / Planning | 06/04 a 10/04 |
-| 🔖 **SPRINT 2** | 13/04 a 03/05 |
+| ✅ **SPRINT 2** | 13/04 a 03/05 |
 | 🔖 Sprint Review / Planning | 04/05 a 08/05 |
-| 🔖 **SPRINT 3** | 11/05 a 31/05 |
+| ⏳ **SPRINT 3** | 11/05 a 31/05 |
 | 🔖 Sprint Review / Planning | 01/06 a 05/06 |
 | 🔖 Feira de Soluções | 11/06 |
 | 🔖 Apresentação de TGs | 15/06 a 19/06 |
