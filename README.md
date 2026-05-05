@@ -11,7 +11,7 @@
 > Projeto Acadêmico | API 2026 · FATEC São José dos Campos 
 
 
-**Status do Projeto:** Sprint 1/3 ⏳
+**Status do Projeto:** Sprint 3/3 ⏳
 
 ---
 
