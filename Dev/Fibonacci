@@ -1,0 +1,24 @@
+Algoritmo "Fibonacci"
+
+var
+nrep,n1,n2, n3, i : inteiro
+
+
+Inicio
+escreval("ate qual numero deseja calcular")
+leia(nrep)
+enquanto (nrep>47)faca
+escreval ("Escolha um numero menor que 47")
+leia(nrep)
+fimenquanto
+n1<- -1
+n2<- 1
+para i de 1 ate nrep faca
+n3<- n1 + n2
+n1<-n2
+n2<-n3
+escreval(n3)
+fimpara
+
+
+Fimalgoritmo
