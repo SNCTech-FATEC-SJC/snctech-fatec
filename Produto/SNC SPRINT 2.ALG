@@ -1,6 +1,6 @@
-Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi
+Algoritmo "Calculadora de Sequência"
+// Disciplina   : ALGORITMOS   
+// Professor   : FABIANO SABHA WALCZAK
 
 Var
    opcao: real
