@@ -1,0 +1,15 @@
+algoritmo "NTriangulares"
+
+var
+   n, i, tri: inteiro
+
+inicio
+   escreva("Quantos numeros triangulares deseja gerar? ")
+   leia(n)
+
+   para i de 1 ate n faca
+      tri <- (i * (i + 1)) div 2
+      escreval("T(", i, ") = ", tri)
+   fimpara
+
+fimalgoritmo
