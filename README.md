@@ -11,7 +11,7 @@
 > Projeto Acadêmico | API 2026 · FATEC São José dos Campos 
 
 
-**Status do Projeto:** Sprint 3/3 ⏳
+**Status do Projeto:** Sprint 3/3 ✅
 
 ---
 
@@ -138,13 +138,42 @@ Entradas: N (quantidade de termos), B (magnitude dos termos).
 
 ---
 
-### 🔜 Previstas (Sprint 3)
+### ✅ Implementadas (Sprint 3)
 
-| Sequência | Sprint |
-|---|---|
-| Fibonacci | Sprint 3 |
-| Números Triangulares | Sprint 3 |
-| Números Primos | Sprint 3 |
+#### 7. Sequência de Números Primos
+Números que possuem exatamente dois divisores: 1 e ele mesmo.
+
+- Exibe todos os números primos de 0 até o valor N informado pelo usuário.
+- A verificação é feita contando os divisores de cada número no intervalo.
+
+**Exemplo com N = 10:** `2, 3, 5, 7`
+
+---
+
+#### 8. Sequência de Fibonacci
+Sequência onde cada termo é a soma dos dois termos anteriores.
+
+```
+F(n) = F(n-1) + F(n-2)
+```
+
+- Exibe todos os N primeiros termos da sequência de Fibonacci.
+- Limite máximo: 47 termos (restrição de capacidade da variável inteira no VisualG).
+
+**Exemplo com N = 6:** `0, 1, 1, 2, 3, 5`
+
+---
+
+#### 9. Números Triangulares
+Números obtidos pela soma dos inteiros positivos consecutivos de 1 até N.
+
+```
+T(n) = n × (n + 1) / 2
+```
+
+- Exibe os N primeiros números triangulares com sua posição.
+
+**Exemplo com N = 5:** `T(1)=1, T(2)=3, T(3)=6, T(4)=10, T(5)=15`
 
 ---
 
@@ -200,9 +229,9 @@ Pressione `F9` (ou `Executar > Executar`).
 | PB-07 | Sequência | Fatorial | Média | ✅ Concluído | Sprint 2 |
 | PB-09 | Sequência | Cubos | Média | ✅ Concluído | Sprint 2 |
 | PB-11 | Sequência | Alternada | Média | ✅ Concluído | Sprint 2 |
-| PB-04 | Sequência | Fibonacci | Baixa | Backlog | Sprint 3 |
-| PB-05 | Sequência | Números Triangulares | Baixa | Backlog | Sprint 3 |
-| PB-06 | Sequência | Números Primos | Baixa | Backlog | Sprint 3 |
+| PB-04 | Sequência | Fibonacci | Baixa | ✅ Concluído | Sprint 3 |
+| PB-05 | Sequência | Números Triangulares | Baixa | ✅ Concluído | Sprint 3 |
+| PB-06 | Sequência | Números Primos | Baixa | ✅ Concluído | Sprint 3 |
 
 ---
 
@@ -217,7 +246,7 @@ Pressione `F9` (ou `Executar > Executar`).
 | 🔖 Sprint Review / Planning | 06/04 a 10/04 |
 | ✅ **SPRINT 2** | 13/04 a 03/05 |
 | 🔖 Sprint Review / Planning | 04/05 a 08/05 |
-| ⏳ **SPRINT 3** | 11/05 a 31/05 |
+| ✅ **SPRINT 3** | 11/05 a 31/05 |
 | 🔖 Sprint Review / Planning | 01/06 a 05/06 |
 | 🔖 Feira de Soluções | 11/06 |
 | 🔖 Apresentação de TGs | 15/06 a 19/06 |
@@ -253,6 +282,6 @@ Pressione `F9` (ou `Executar > Executar`).
 
 > 📁 Documentação completa disponível em: [GitHub - Pasta Doc](https://github.com/SNCTech-FATEC-SJC/snctech-fatec/tree/main/Doc)
 
-*Calculadora SNC Tech · VisualG / Portugol · Versão 1.0* 
+*Calculadora SNC Tech · VisualG / Portugol · Versão 1.2* 
 
 <hr />
