@@ -9,7 +9,7 @@ Desenvolvido em **VisualG / Portugol**
 
 A **CALC SNC TECH** é uma calculadora interativa desenvolvida em Portugol (VisualG), voltada ao estudo de sequências matemáticas. O programa é executado diretamente no terminal do VisualG e apresenta um menu principal a partir do qual o usuário seleciona o tipo de cálculo desejado.
 
-> **Como executar:** Abra o arquivo `SNC_SPRINT_2.ALG` no VisualG e pressione **F9** (ou clique em Executar). Ao iniciar, uma tela de boas-vindas é exibida. Pressione **ENTER** para acessar o menu principal.
+> **Como executar:** Abra o arquivo `SNC_SPRINT_3.ALG` no VisualG e pressione **F9** (ou clique em Executar). Ao iniciar, uma tela de boas-vindas é exibida. Pressione **ENTER** para acessar o menu principal.
 
 ---
 
@@ -25,6 +25,9 @@ Após pressionar ENTER na tela inicial, o menu é exibido com as opções dispon
 | **4** | Sequência de Cubos | Gera a sequência de cubos perfeitos de 1 até N. |
 | **5** | Sequência Fatorial | Calcula e lista os fatoriais de 1 até N. |
 | **6** | Sequência Alternada | Gera uma sequência com sinais alternados a partir de um termo e razão. |
+| **7** | Sequência de Números Primos | Lista todos os números primos de 0 até o valor N informado. |
+| **8** | Sequência de Fibonacci | Gera os N primeiros termos da sequência de Fibonacci. |
+| **9** | Números Triangulares | Gera os N primeiros números triangulares. |
 | **0** | Sair | Encerra o programa exibindo a tela de despedida. |
 
 Para escolher uma opção, digite o número correspondente e pressione **ENTER**.
@@ -148,7 +151,66 @@ Gera uma sequência onde os sinais dos termos alternam entre positivo e negativo
 
 ---
 
-## 9. Encerrando o Programa
+## 9. Opção 7 — Sequência de Números Primos
+
+Lista todos os números primos de 0 até o valor N informado. Um número primo possui exatamente dois divisores: 1 e ele mesmo.
+
+**Como usar:**
+
+| Passo | Ação |
+|-------|------|
+| **1** | No menu principal, digite `7` e pressione ENTER. |
+| **2** | Informe o valor limite (N) e pressione ENTER. |
+| **3** | O programa exibe todos os números primos encontrados no intervalo de 0 até N. |
+| **4** | Pressione ENTER para voltar ao menu principal. |
+
+> **Exemplo:** N: `10` → Resultado: `2, 3, 5, 7`
+
+**Funcionamento:** Para cada número no intervalo, o programa conta seus divisores. Se o total for exatamente 2, o número é classificado como primo.
+
+---
+
+## 10. Opção 8 — Sequência de Fibonacci
+
+Gera os N primeiros termos da sequência de Fibonacci, onde cada termo é a soma dos dois anteriores.
+
+**Como usar:**
+
+| Passo | Ação |
+|-------|------|
+| **1** | No menu principal, digite `8` e pressione ENTER. |
+| **2** | Informe a quantidade de termos (N) desejada e pressione ENTER. |
+| **3** | O programa exibe cada termo da sequência separado por uma linha divisória. |
+| **4** | Pressione ENTER para voltar ao menu principal. |
+
+> **Atenção:** O valor de N não pode ultrapassar `47`, pois valores maiores excedem a capacidade de armazenamento de variáveis inteiras no VisualG. O programa solicitará um novo valor caso isso ocorra.
+
+> **Exemplo:** N: `6` → Resultado: `0, 1, 1, 2, 3, 5`
+
+**Fórmula utilizada:** `F(n) = F(n-1) + F(n-2)`
+
+---
+
+## 11. Opção 9 — Números Triangulares
+
+Gera os N primeiros números triangulares. Um número triangular é obtido pela soma dos inteiros positivos consecutivos de 1 até N.
+
+**Como usar:**
+
+| Passo | Ação |
+|-------|------|
+| **1** | No menu principal, digite `9` e pressione ENTER. |
+| **2** | Informe a quantidade de termos (N) desejada e pressione ENTER. |
+| **3** | O programa exibe cada número triangular com sua posição no formato `T(n) = valor`. |
+| **4** | Pressione ENTER para voltar ao menu principal. |
+
+> **Exemplo:** N: `5` → Resultado: `T(1)=1, T(2)=3, T(3)=6, T(4)=10, T(5)=15`
+
+**Fórmula utilizada:** `T(n) = n × (n + 1) / 2`
+
+---
+
+## 12. Encerrando o Programa
 
 Para encerrar a calculadora com segurança:
 
@@ -160,9 +222,9 @@ Para encerrar a calculadora com segurança:
 
 ---
 
-## 10. Observações Gerais
+## 13. Observações Gerais
 
 - Todos os valores numéricos devem ser informados com ponto (`.`) como separador decimal, conforme padrão do VisualG.
 - O programa valida automaticamente entradas inválidas e solicita correção quando necessário.
 - Após cada cálculo, sempre pressione **ENTER** para retornar ao menu e realizar um novo cálculo.
-- Opções `7`, `8` e `9` estão reservadas para implementações futuras e não executam nenhuma ação no momento.
+- As opções `7`, `8` e `9` correspondem às sequências implementadas na Sprint 3: Números Primos, Fibonacci e Números Triangulares, respectivamente.
