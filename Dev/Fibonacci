@@ -5,10 +5,14 @@ nrep,n1,n2, n3, i : inteiro
 
 
 Inicio
-escreval("ate qual numero deseja calcular")
+
+escreval("==================CALCULADORA==================")
+  escreval("Você selecionou Fibonacci")
+ escreval("===============================================")
+escreval("Até que número deseja calcular")
 leia(nrep)
 enquanto (nrep>47)faca
-escreval ("Escolha um numero menor que 47")
+escreval ("Escolha um número menor que 47")
 leia(nrep)
 fimenquanto
 n1<- -1
@@ -18,6 +22,7 @@ n3<- n1 + n2
 n1<-n2
 n2<-n3
 escreval(n3)
+escreval("===============================================")
 fimpara
 
 
