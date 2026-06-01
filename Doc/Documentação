@@ -1,0 +1,144 @@
+# Desenvolvimento de Aplicação de Cálculo de Sequências Lógicas
+
+# CALCULADORA SNC Tech
+
+**Status do Projeto:** Sprint 3/3 ✅
+
+📁 Pasta de Documentação: [GitHub - Doc](https://github.com/SNCTech-FATEC-SJC/snctech-fatec/tree/main/Doc)
+
+---
+
+## 🏅 Desafio
+
+Desenvolver uma calculadora usando o conhecimento em Portugol, seguindo as especificações do Professor/Cliente.
+
+---
+
+## 🏅 Solução
+
+A Calculadora permitirá ao seu usuário gerar seus cálculos de sequências de acordo com a sua necessidade.
+
+---
+
+## 📋 Backlog do Produto
+
+**Equipe SNC · API 2026**
+
+| ID | Épico | User Story | Descrição | Critério de Aceitação | Prioridade | Status | Sprint |
+|---|---|---|---|---|---|---|---|
+| PB-01 | Interface | Como usuário quero visualizar um menu no programa para escolher qual sequência calcular. | Criar interface em texto com menu de opções | Menu deve aparecer ao iniciar a aplicação | 🔴 Alta | ✅ Concluído | Sprint 1 |
+| PB-02 | Fluxo do sistema | Como usuário quero executar apenas um cálculo por vez para facilitar o uso. | Sistema deve solicitar a sequência e executar somente um cálculo | Após executar cálculo o sistema deve retornar ao menu | 🔴 Alta | ✅ Concluído | Sprint 1 |
+| PB-03 | Fluxo do sistema | Como usuário quero que o programa execute todos os cálculos de sequência lógica propostos como opções no menu. | Realizar o cálculo matemático relacionado a sequência escolhida pelo usuário | O sistema deve realizar o cálculo da sequência escolhida pelo usuário baseada nos parâmetros inseridos. | 🔴 Alta | ✅ Concluído | Sprint 1 |
+| PB-08 | Sequência | Como usuário quero que o programa me mostre a Sequência de Quadrados Perfeitos de acordo com o parâmetro N(Índice). | Realizar o cálculo da Sequência de Quadrados Perfeitos | A função deve retornar o valor correto conforme N(Índice) inserido pelo usuário. | 🔴 Alta | ✅ Concluído | Sprint 1 |
+| PB-10 | Sequência | Como usuário quero que o programa me mostre uma Sequência Geométrica de acordo com os parâmetros N(Índice) e R(Razão). | Realizar o cálculo da Sequência Geométrica | A função deve retornar o valor correto conforme N(Índice) e R(Razão) inseridos. | 🔴 Alta | ✅ Concluído | Sprint 1 |
+| PB-12 | Sequência | Como usuário quero que o programa me mostre a Sequência de Tribonacci de acordo com o parâmetro N(Índice). | Realizar o cálculo da Sequência de Tribonacci | A função deve retornar o valor correto conforme N(Índice) inserido pelo usuário. | 🔴 Alta | ✅ Concluído | Sprint 1 |
+| PB-07 | Sequência | Como usuário quero que o programa me mostre uma Sequência Fatorial de acordo com os parâmetros N(Índice) e n(Número). | Realizar o cálculo da Sequência Fatorial | A função deve retornar o valor correto conforme N(Índice) e n(Número) inseridos. | 🟡 Média | ✅ Concluído | Sprint 2 |
+| PB-09 | Sequência | Como usuário quero que o programa me mostre a Sequência de Cubos de acordo com o parâmetro N(Índice). | Realizar o cálculo da Sequência de Cubos | A função deve retornar o valor correto conforme N(Índice) inserido pelo usuário. | 🟡 Média | ✅ Concluído | Sprint 2 |
+| PB-11 | Sequência | Como usuário quero que o programa me mostre uma Sequência Alternada de acordo com os parâmetros N(Índice) e B(Magnitude). | Realizar o cálculo da Sequência Alternada | A função deve retornar o valor correto conforme N(Índice) e B(Magnitude) inseridos. | 🟡 Média | ✅ Concluído | Sprint 2 |
+| PB-04 | Sequência | Como usuário quero que o programa me mostre a Sequência de Fibonacci de acordo com o parâmetro N(Índice). | Realizar o cálculo da Sequência de Fibonacci | A função deve retornar o valor correto conforme N(Índice) inserido pelo usuário. | 🟢 Baixa | ✅ Concluído | Sprint 3 |
+| PB-05 | Sequência | Como usuário quero que o programa me mostre a Sequência de Números Triangulares de acordo com o parâmetro N(Índice). | Realizar o cálculo da Sequência de Números Triangulares | A função deve retornar o valor correto conforme N(Índice) inserido pelo usuário. | 🟢 Baixa | ✅ Concluído | Sprint 3 |
+| PB-06 | Sequência | Como usuário quero que o programa me mostre a Sequência de Números Primos de acordo com o parâmetro N(Índice). | Realizar o cálculo da Sequência de Números Primos | A função deve retornar o valor correto conforme N(Índice) inserido pelo usuário. | 🟢 Baixa | ✅ Concluído | Sprint 3 |
+
+---
+
+## 🏃‍ DoR — Definition of Ready
+
+| Critério | Time | Status |
+|---|---|---|
+| Todos terem noção da ferramenta utilizada para realizar o projeto. | Time | ✅ Yes |
+| Todos terem tarefas atribuídas. | Time | ✅ Yes |
+| Todos terem clareza da sua atribuição. | Time | ✅ Yes |
+| Todos terem noção da fundamentação do problema atribuído. | Time | ✅ Yes |
+| Todos terem noção das prioridades de cada tarefa. | Time | ✅ Yes |
+| Ter conhecimento básico dos requisitos do cliente. | Programa | ✅ Yes |
+| Todos terem conhecimento e acesso ao GitHub. | Programa | ✅ Yes |
+| Todas as prioridades serem atribuídas aos itens do backlog. | Programa | ✅ Yes |
+
+---
+
+## 🏆 DoD — Definition of Done
+
+- Código completo
+- Código testado
+- README atualizado
+
+---
+
+## 🚦 Regras do Grupo
+
+- **Respeito mútuo com os companheiros.**
+- **Presença de no mínimo 75% em dailys ou resumo no Discord.**
+- **Máximo 2 falhas na entrega.**
+- **Não utilizar IA no código, peça ajuda.**
+
+---
+
+## 📅 Cronograma de Sprints
+
+| Sprint | Período |
+|---|---|
+| 🔖 Início das Aulas | 09/02 |
+| 🔖 Kick-off geral | 02/03 a 06/03 |
+| 🔖 Construção do Backlog de Produto / Planning | 09/03 a 13/03 |
+| ✅ **SPRINT 1** | 16/03 a 05/04 |
+| 🔖 Sprint Review / Planning | 06/04 a 10/04 |
+| ✅ **SPRINT 2** | 13/04 a 03/05 |
+| 🔖 Sprint Review / Planning | 04/05 a 08/05 |
+| ✅ **SPRINT 3** | 11/05 a 31/05 |
+| 🔖 Sprint Review / Planning | 01/06 a 05/06 |
+| 🔖 Feira de Soluções | 11/06 |
+| 🔖 Apresentação de TGs | 15/06 a 19/06 |
+| 🔖 Encerramento das Aulas | 04/07 |
+
+---
+
+## 💻 Tecnologias
+
+| Ferramenta | Uso |
+|---|---|
+| VisualG | Desenvolvimento e execução do algoritmo em Portugol |
+| GitHub | Versionamento e documentação do projeto |
+| Discord | Comunicação interna da equipe |
+| Microsoft Teams | Comunicação com o professor/cliente |
+| Google Docs / Planilhas | Documentação e gestão do backlog |
+
+---
+
+## 📖 Manual de Instalação
+
+### 🛠 Pré-requisitos
+
+- **Git** — [Download](https://git-scm.com/downloads)
+- **VisualG 3.0 ou superior** — [Download](https://sourceforge.net/projects/visualg30/)
+
+### 1. Clonar o Repositório Principal
+
+No terminal "Open Git Bash Here":
+
+```
+git clone https://github.com/SNCTech-FATEC-SJC/snctech-fatec.git
+```
+
+### 2. Abrir e Executar
+
+1. Abra o **VisualG** no seu computador.
+2. Vá em `Arquivo > Abrir` e selecione o arquivo `SNC_SPRINT_3.ALG`.
+3. Pressione **F9** (ou `Executar > Executar`) para iniciar.
+
+---
+
+## 🎓 Equipe
+
+| Função | Membro | GitHub |
+|---|---|---|
+| Product Owner | Pietro Ramos Silveira | [@Zanella08](https://github.com/Zanella08) |
+| Scrum Master | Helder Francisco da Costa | [@helderfcosta](https://github.com/helderfcosta) |
+| Dev Team | Lucas Alves da Silva | [@Alves-ls](https://github.com/Alves-ls) |
+| Dev Team | Miguel Tediole de Oliveira | [@tediolem](https://github.com/tediolem) |
+| Dev Team | Victor Joaquim Pereira do Nascimento | [@BJ1-star](https://github.com/BJ1-star) |
+| Dev Team | Asafe Maximiano dos Santos | [@AsafeMax2008](https://github.com/AsafeMax2008) |
+| Dev Team | Yan Vitor Siqueira Bergantin | [@YanBergantin](https://github.com/YanBergantin) |
+
+---
+
+> 📁 Documentação completa disponível em: [GitHub - Pasta Doc](https://github.com/SNCTech-FATEC-SJC/snctech-fatec/tree/main/Doc)
