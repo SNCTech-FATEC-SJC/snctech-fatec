@@ -232,6 +232,7 @@ Pressione `F9` (ou `Executar > Executar`).
 | PB-04 | Sequência | Fibonacci | Baixa | ✅ Concluído | Sprint 3 |
 | PB-05 | Sequência | Números Triangulares | Baixa | ✅ Concluído | Sprint 3 |
 | PB-06 | Sequência | Números Primos | Baixa | ✅ Concluído | Sprint 3 |
+| PB-13 | Interface | Cor no menu | Baixa | ✅ Concluído | Sprint 3 |
 
 ---
 
